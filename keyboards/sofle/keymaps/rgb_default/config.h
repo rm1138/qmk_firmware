@@ -23,8 +23,8 @@
 ///https://thomasbaart.nl/2018/12/01/reducing-firmware-size-in-qmk/
 
 
-#define MASTER_LEFT
-// #define MASTER_RIGHT
+// #define MASTER_LEFT
+#define MASTER_RIGHT
 // #define EE_HANDS
 
 #define CUSTOM_FONT
@@ -39,6 +39,7 @@
 #endif
 #define ENCODER_DIRECTION_FLIP
 #define OLED_BRIGHTNESS 16
+#define OLED_TIMEOUT 5000
 #define RGBLIGHT_SLEEP
 //
 #define RGBLIGHT_LAYERS
